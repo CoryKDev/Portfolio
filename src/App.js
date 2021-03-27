@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
     <Particles 
+    className="particles-canvas"
     params={{
       particles: {
         number:{

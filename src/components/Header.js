@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Typed from 'react-typed';
 
@@ -6,18 +7,18 @@ const Header = () => {
 
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>Front End Web Developer and Web Designer</h1>
+                <h1>Front End Developer and Web Designer</h1>
                 <Typed 
                     className="typed-text"
                     strings={["Web Design",
-                     "Front End Web Development",
+                     "Front End Development",
                       "UX/UI"]}
                     typeSpeed={40}
                     backSpeed={35}
                     loop
                 />
 
-                <a href="#" className="btn-main-offer">Contact Me</a>
+                <a href="/" className="btn-main-contact">Contact Me</a>
             </div>
         </div>
 

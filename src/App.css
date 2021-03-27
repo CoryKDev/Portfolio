@@ -75,7 +75,8 @@ nav ul li {
   background-position: center;
   background-size: cover;
   height: 90vh;
-  opacity: 0.9;
+  /* makes the contact button not work for some reason */
+  /* opacity: 0.9; */
  
 }
 
@@ -91,6 +92,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: "Roboto Condesed", sans-serif;
+  z-index: 2;
 }
 
 .main-info h1 {
@@ -98,6 +100,11 @@ nav ul li {
   font-size: 3rem;
 }
 
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.rem !important;
+  }
+}
 /*----TYPED-REACT----*/
 
 .typed-text{
@@ -106,13 +113,21 @@ nav ul li {
 }
 
 /*----MAIN-BTN----*/
-.btn-main-offer {
+.btn-main-contact {
   border: 1px solid var(--primary-blue);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.65rem 0.75rem 0.75rem 0.75rem ;
   color: var(--primary-white);
   margin-top: 2rem;
+  z-index: 2;
+}
+
+.btn-main-contact:hover {
+  text-decoration: none;
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+  transition: .2s ease-out;
 }
 
 /******PARTICLES******/
@@ -123,3 +138,10 @@ nav ul li {
   height: 100vh;
   z-index: 1;
 }
+
+@media(max-width: 768px){
+  .particles-canvas{
+    display:none;
+  }
+}
+
