@@ -13,6 +13,9 @@ body {
 /* Convert pixels using ninjaunits to rem to synch with bootstrap*/
 
 /********************NAVBAR*************************/
+nav{
+  z-index: 2;
+}
 
 .logo {
   width: 8rem;
@@ -73,7 +76,7 @@ nav ul li {
   background-size: cover;
   height: 90vh;
   opacity: 0.9;
-  z-index: 1;
+ 
 }
 
 .main-info {
@@ -118,5 +121,5 @@ nav ul li {
   position: absolute;
   width: 100wv;
   height: 100vh;
-  z-index: 2;
+  z-index: 1;
 }
