@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Particles from 'react-particles-js';
 //import Components here ▼
 import Navbar from './components/Navbar'
 import Header from './components/Header'
@@ -8,7 +9,20 @@ import Header from './components/Header'
 function App() {
   return (
     <div className="App">
-      <Navbar />
+    <Particles 
+    params={{
+      particles: {
+        number:{
+        value: 30,
+        density:{
+          enable: true,
+          value_area: 900
+         }
+        }
+      }
+    }}
+    /> 
+    <Navbar />
       <Header />
     </div>
   );
