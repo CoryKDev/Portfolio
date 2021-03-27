@@ -24,6 +24,15 @@ nav{
   left: 0px;
 }
 
+@media(max-width: 768px){
+  .logo{
+    width: 4rem;
+    height:6rem;
+    position: absolute;
+    left: 0px;
+  }
+}
+
 /*----NAV-LINKS----*/
 
 .navbar-nav {
