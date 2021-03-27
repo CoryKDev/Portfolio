@@ -111,3 +111,12 @@ nav ul li {
   color: var(--primary-white);
   margin-top: 2rem;
 }
+
+/******PARTICLES******/
+
+.tsparticles-canvas-el{
+  position: absolute;
+  width: 100wv;
+  height: 100vh;
+  z-index: 2;
+}
