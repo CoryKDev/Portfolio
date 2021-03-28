@@ -21,7 +21,7 @@ Form {
 Form .form-control {
     background-color: #666666;
     color: var(--primary-white);
-    
+    box-shadow: rgba(49, 199, 204, 0.835) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 #message {
