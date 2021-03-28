@@ -1,0 +1,32 @@
+.form-wrapper {
+    position: relative;
+    background: url(../images/contact-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+Form {
+   position: absolute;
+   top: 25rem;
+   left: 38rem;
+    width: 50vw;
+    color:var(--primary-white);
+    z-index: 2;
+}
+
+Form .form-control {
+    background-color: #666666;
+    color: var(--primary-white);
+    
+}
+
+#message {
+    min-height: calc(8rem + 2rem + 6px) !important;
+}
+.form-control::placeholder { 
+    color: var(--primary-blue);
+}

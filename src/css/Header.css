@@ -1,0 +1,78 @@
+/********************HEADER*************************/
+
+.header-wrapper {
+    position: relative;
+    background: url(../images/header-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* makes the contact button not work for some reason */
+    /* opacity: 0.9; */
+   
+  }
+  
+  .main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condesed", sans-serif;
+    z-index: 2;
+  }
+  
+  .main-info h1 {
+    color: var(--primary-blue);
+    font-size: 3rem;
+  }
+  
+  @media(max-width: 768px) {
+    .main-info h1 {
+      font-size: 1.rem !important;
+    }
+  }
+  /*----TYPED-REACT----*/
+  
+  .typed-text{
+    font-size: 2rem;
+    color: var(--primary-white);
+  }
+  
+  /*----MAIN-BTN----*/
+  .btn-main-contact {
+    border: 1px solid var(--primary-blue);
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.65rem 0.75rem 0.75rem 0.75rem ;
+    color: var(--primary-white);
+    margin-top: 2rem;
+    z-index: 2;
+  }
+  
+  .btn-main-contact:hover {
+    text-decoration: none;
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+    transition: .2s ease-out;
+  }
+  
+  /******PARTICLES******/
+  
+  .tsparticles-canvas-el{
+    position: absolute;
+    width: 100wv;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  @media(max-width: 768px){
+    .particles-canvas{
+      display:none;
+    }
+  }
+  
