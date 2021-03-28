@@ -1,0 +1,17 @@
+
+.card-wrapper{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 15rem;
+}
+
+.cards {
+    box-shadow: rgb(16, 223, 238) 0px 20px 30px -10px;
+    
+    
+}
+
+
+

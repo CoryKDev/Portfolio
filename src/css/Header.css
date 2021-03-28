@@ -65,7 +65,7 @@
   
   .tsparticles-canvas-el{
     position: absolute;
-    width: 100wv;
+    width: 100vw;
     height: 100vh;
     z-index: 1;
   }

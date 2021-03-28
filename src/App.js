@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Navbar from './components/Navbar';
 import MainPage from './pages/MainPage';
 import ContactPage from './pages/ContactPage';
+import AboutMePage from './pages/AboutMePage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Switch>
       
       <Route path="/ContactPage" component={ContactPage} />
+      <Route path="/aboutme" component={AboutMePage} />
       <Route path="/" component={MainPage} />
       </Switch>
     </div>
