@@ -1,5 +1,6 @@
 import React from 'react'
-import Form from 'react-bootstrap/Form';
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
 import '../css/Contact.css';
 
 const ContactForm = () => {
@@ -20,7 +21,10 @@ const ContactForm = () => {
                 <Form.Label>Enter Message Here</Form.Label>
                 <Form.Control id="message"  as="textarea" rows={3} />
             </Form.Group>
+            <Button className="email-Btn" >Send</Button>{' '}
         </Form>
+
+        
         </div>
     )
 }

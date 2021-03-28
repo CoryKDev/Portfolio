@@ -30,3 +30,7 @@ Form .form-control {
 .form-control::placeholder { 
     color: var(--primary-blue);
 }
+.email-Btn{
+    background-color: var(--primary-blue) !important;
+    border: #fff;
+}

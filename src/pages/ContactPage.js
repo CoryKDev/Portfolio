@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import React from 'react'
 import Form from '../components/Form'
+
 import Particles from 'react-particles-js';
 
 const ContactPage = () => {

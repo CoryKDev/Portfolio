@@ -19,7 +19,7 @@ const Header = () => {
                     loop
                 />
 
-                <a href="/" className="btn-main-contact">Contact Me</a>
+                <a href="/ContactPage" className="btn-main-contact">Contact Me</a>
             </div>
         </div>
 
