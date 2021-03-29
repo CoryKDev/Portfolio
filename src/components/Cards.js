@@ -27,9 +27,9 @@ const Cards = () => {
 <Card.Body className="text-area">
   <Card.Title>About Me</Card.Title>
   <Card.Text>
-    What's up? My name is Cory, I am a new web developer who has been sucked in to front-end development 
+    What's up? My name is Cory, I am a new web developer who has been sucked in to front-end 
     from the first day of class. I've been an artist my whole life and front-end development is the perfect
-    mix of art and technology for me. Outside of art and tech I love being outdoors, socializing and gaming from time to time.
+    mix of art and technology for me. Outside of art and tech I love being outdoors, socializing and gaming.
   </Card.Text>
   
 </Card.Body>
@@ -40,10 +40,9 @@ const Cards = () => {
 <Card.Body className="text-area">
   <Card.Title>Personal Goals</Card.Title>
   <Card.Text>
-    One of my major personaly goals is, I want to become fluent in at a minimum, three languages.
+    One of my major persona goals is, I want to become fluent in at a minimum, three languages.
     I started with Japanese and have been practicing everyday along with coding and front-end development.
-    I want to achieve a skill level where I can make anything I can creatively come up with into a website. Whether it be
-    style, layout, functionality, I practice everyday and strive to reach those goals Iv'e commited myself to.
+   
   </Card.Text>
   
 </Card.Body>

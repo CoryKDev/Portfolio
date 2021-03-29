@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import MainPage from './pages/MainPage';
 import ContactPage from './pages/ContactPage';
 import AboutMePage from './pages/AboutMePage';
+import PortfolioPage from './pages/PortfolioPage'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Switch>
       
       <Route path="/ContactPage" component={ContactPage} />
+      <Route path="/portfolio" component={PortfolioPage} />
       <Route path="/aboutme" component={AboutMePage} />
       <Route path="/" component={MainPage} />
       </Switch>
