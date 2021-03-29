@@ -9,28 +9,27 @@
 
 
 
-/* Form {
-   position: absolute;
-   top: 25rem;
-   left: 38rem;
-    width: 50vw;
-    color:var(--primary-white);
-    z-index: 2;
-}
-
-Form .form-control {
+.contact-card{
+    position: absolute;
+    top: 30rem;
+    left: 43%;
     background-color: #666666;
-    color: var(--primary-white);
-    box-shadow: rgba(49, 199, 204, 0.835) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    z-index: 2;
+    box-shadow: rgb(31, 191, 240) 0px 20px 30px -10px;
+    color: white;
+    border: solid var(--primary-blue) 1px;
 }
 
-#message {
-    min-height: calc(8rem + 2rem + 6px) !important;
-}
-.form-control::placeholder { 
+.card-links{
     color: var(--primary-blue);
+    
 }
-.email-Btn{
-    background-color: var(--primary-blue) !important;
-    border: #fff;
-} */
+
+
+
+.tsparticles-canvas-el{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}

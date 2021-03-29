@@ -1,31 +1,27 @@
 import React from 'react'
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+import Card from 'react-bootstrap/Card'
 import '../css/Contact.css';
+import { FaGithub } from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa'
 
 const ContactForm = () => {
     return (
         <div className="form-wrapper">
-        <Form>
-            <Form.Group controlId="exampleForm.ControlInput1">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlInput1">
-                <Form.Label>Phone Number</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlSelect2">
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Label>Enter Message Here</Form.Label>
-                <Form.Control id="message"  as="textarea" rows={3} />
-            </Form.Group>
-            <Button type="submit" className="email-Btn" >Send</Button>{' '}
-        </Form>
+        <Card className="contact-card" style={{ width: '18rem' }}>
+        <Card.Body>
+          <Card.Title>Contact Me</Card.Title>
+          <Card.Text>
+            Cory Keelan
+            Corykeelan7@gmail.com
+          </Card.Text>
+        </Card.Body>
+        <Card.Body >
+          <Card.Link href="https://github.com/CoryKDev" target="_blank"><FaGithub className="card-links" /></Card.Link>
+          <Card.Link href="https://www.linkedin.com/in/cory-keelan-16baa0206/" target="_blank"><FaLinkedin className="card-links" /></Card.Link>
 
-        
-        </div>
+        </Card.Body>
+      </Card>
+</div>
     )
 }
 
