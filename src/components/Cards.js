@@ -14,9 +14,9 @@ const Cards = () => {
   <Card.Body className="text-area">
     <Card.Title>Career Goals</Card.Title>
     <Card.Text>
-      Initially I was a barber, finding a way to put my creative outlook into my career. Then the lockdown happened, salons shut down so I tried web development and the rest is history.
-      I'm looking to acquire my first position in the industry as a jr. front-end-developer.
-      As I gorw in skill I plan to see how far I can take this new artform I stumbled upon
+      Initially I was a barber, finding a way to put my creative outlook into my career. Then the lockdown happened. Salons shut down, so I tried web development and the rest is history.
+      I'm looking to acquire my first position in the industry as a Jr. front-end-developer.
+      As I grow in skill I plan to see how far I can take this new artform I stumbled upon.
     </Card.Text>
     
   </Card.Body>
@@ -40,7 +40,7 @@ const Cards = () => {
 <Card.Body className="text-area">
   <Card.Title>Personal Goals</Card.Title>
   <Card.Text>
-    One of my major persona goals is, I want to become fluent in at a minimum, three languages.
+    One of my major personal goals is, I want to become fluent in at a minimum, three languages.
     I started with Japanese and have been practicing everyday along with coding and front-end development.
    
   </Card.Text>
