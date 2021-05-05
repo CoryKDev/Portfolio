@@ -33,3 +33,20 @@
     height: 100vh;
     z-index: 1;
 }
+
+@media (max-width: 576px) { 
+    .contact-card {
+        position: absolute;
+    top: 15rem;
+    left: 15%;
+    }
+
+  }
+
+  @media (max-width: 411px) { 
+    .contact-card {
+        position: absolute;
+    top: 15rem;
+    left: 15%;
+    }
+  }

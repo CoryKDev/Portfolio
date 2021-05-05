@@ -29,7 +29,7 @@ const Cards = () => {
   <Card.Text>
     What's up? My name is Cory, I am a new web developer who has been sucked in to front-end 
     from the first day of class. I've been an artist my whole life and front-end development is the perfect
-    mix of art and technology for me. Outside of art and tech I love being outdoors, socializing and gaming.
+    mix of art and technology for me. Outside of art and tech I love being outdoors, socializing and learning new things.
   </Card.Text>
   
 </Card.Body>
